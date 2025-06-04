@@ -1,232 +1,226 @@
-##  Lessons
-1. Introduciton to the course
-2. Install development tools
-3. Create Angular App
-   1. Create project's folder
-   2. Install @angular/cli
-   3. Create App as frontend
-
-4. Add Header
-   1. Generate Component
-   2. Add Html
-   3. Add CSS
-
-5. List Foods
-    1. Create Food model
-    2. Create data.ts
-       1. Add sample foods
-    3. Add images to assets
-    4. Create Food service
-    5. Create Home component
-       1. Add ts
-       2. Add html
-       3. Add css
-
-6. Search
-   1. Add method to Food service
-   2. Add search route
-   3. Show search result in Home component
-   4. Generate search component
-      1. Add to home component
-      2. Add ts
-      3. Add html
-      4. Add css
-   
-7. Tags Bar
-   1. Create Tag model
-   2. Add sample tags to data.ts
-   3. Food service
-      1. Add get all tags method
-      2. Add get all foods by tag method
-   4. Add tags route
-   5. Show tag result in Home component
-   6. Generate Tags component
-      1. Add to home component
-      2. Add ts
-      3. Add html
-      4. Add css
-
-8. Food Page
-   1. Add method to food service
-   2. Generate Food Page component
-      1. Add Route
-      2. Add ts
-      3. Add html
-      4. Add css
-
-9. Cart Page
-   1. Create CartItem Model
-   2. Create Cart Model
-   3. Generate Cart service
-   4. Add to Cart Button in Food Page
-   5. Generate Cart page component
-      1. Add Route
-      2. Add ts
-      3. Add html
-      4. Add css
-
-10. Not Found!
-    1. Generate Component
-       1. Add ts
-       2. Add html
-       3. Add css
-    2. Add To Pages
-       1. Home Page
-       2. Food Page
-       3. Cart Page
-
-11. Connect To Backend
-    1.  Create backend folder
-    2.  npm init
-    3.  npm install typescript
-    4.  Create tsconfig.json
-    5.  Create .gitignore
-    6.  Copy data.ts to backend/src
-    7.  npm install express cors
-    8.  Create server.ts
-        1. install @types
-        2. Add Apis
-    9.  npm install nodemon ts-node --save-dev
-    10. Add urs.ts to frontend
-    11. Add HttpClient module
-    12. Update food service
-
-12. Login Page
-    1.  Generate Component
-        1.  Add to routes
-        2.  Add ts 
-        3.  Add html
-            1.  Import Reactive Forms Module
-        4.  Add Css
-    2.  Add Login Api
-        1.  Use json
-        2.  Add jsonwebtoken
-        3.  Test Using Postman
-    
-    3.  Generate User Service
-        1.  Generate User model
-        2.  Add User Subject
-        3.  Add Login Method   
-            1.  Add User Urls
-            2.  Generate IUserLogin interface
-            3.  Add ngx-toastr
-                1.  Import Module
-                2.  Import BrowserAnimationsModule
-                3.  Add styles in angular.json
-            4.  Add to Header
-        1. Add Local Storage methods
-        2. Add Logout Method
-           1. Add to Header
 
 
-13. Make Components For Login Page
-    1. Input Container
-    2. Input Validation
-    3. Text Input
-    4. Default Button
+2. **Installation des outils de développement**
+3. **Créer une application Angular**
+   1. Créer le dossier du projet
+   2. Installer `@angular/cli`
+   3. Créer l'application (frontend)
 
-14. Connect Login API To MongoDB Atlas
-    1. Moving Apis into routers
-    2. Create MongoDB Atlas
-    3. Create .env file
-    4. Install
-       1. mongoose
-       2. dotenv
-       3. bcryptjs
-       4. express-async-handler
-    5. Connect to MongoDB Atlas
-    6. Use MongoDB instead of data.ts in apis
+4. **Ajouter un en-tête (Header)**
+   1. Générer un composant
+   2. Ajouter le HTML
+   3. Ajouter le CSS
 
+5. **Lister les aliments (Foods)**
+   1. Créer un modèle `Food`
+   2. Créer `data.ts`
+      1. Ajouter des exemples d'aliments
+   3. Ajouter des images dans `assets`
+   4. Créer un service `Food`
+   5. Créer un composant `Home`
+      1. Ajouter le TypeScript
+      2. Ajouter le HTML
+      3. Ajouter le CSS
 
-15. Register User
-    1.  Add Register api
-    2.  Add Register service method
-    3.  Add Register link 
-    4.  Add Register Component
+6. **Recherche (Search)**
+   1. Ajouter une méthode au service `Food`
+   2. Ajouter une route de recherche
+   3. Afficher les résultats dans le composant `Home`
+   4. Générer un composant `Search`
+      1. L'ajouter au composant `Home`
+      2. Ajouter le TypeScript
+      3. Ajouter le HTML
+      4. Ajouter le CSS
 
+7. **Barre d'étiquettes (Tags Bar)**
+   1. Créer un modèle `Tag`
+   2. Ajouter des étiquettes exemples dans `data.ts`
+   3. Service `Food`
+      1. Ajouter une méthode pour récupérer toutes les étiquettes
+      2. Ajouter une méthode pour récupérer les aliments par étiquette
+   4. Ajouter une route pour les étiquettes
+   5. Afficher les résultats dans le composant `Home`
+   6. Générer un composant `Tags`
+      1. L'ajouter au composant `Home`
+      2. Ajouter le TypeScript
+      3. Ajouter le HTML
+      4. Ajouter le CSS
 
-16. Loading!
-    1.  Add Image 
-    2.  Add Component
-    3.  Add Service
-    4.  Add Interceptor
+8. **Page Aliment (Food Page)**
+   1. Ajouter une méthode au service `Food`
+   2. Générer un composant `FoodPage`
+      1. Ajouter une route
+      2. Ajouter le TypeScript
+      3. Ajouter le HTML
+      4. Ajouter le CSS
 
+9. **Page Panier (Cart Page)**
+   1. Créer un modèle `CartItem`
+   2. Créer un modèle `Cart`
+   3. Générer un service `Cart`
+   4. Ajouter un bouton "Ajouter au panier" dans `FoodPage`
+   5. Générer un composant `CartPage`
+      1. Ajouter une route
+      2. Ajouter le TypeScript
+      3. Ajouter le HTML
+      4. Ajouter le CSS
 
+10. **Page Non Trouvée (Not Found)**
+    1. Générer un composant
+       1. Ajouter le TypeScript
+       2. Ajouter le HTML
+       3. Ajouter le CSS
+    2. Ajouter aux pages
+       1. Page d'accueil (`Home`)
+       2. Page aliment (`FoodPage`)
+       3. Page panier (`CartPage`)
 
+11. **Connexion au Backend**
+    1. Créer un dossier `backend`
+    2. `npm init`
+    3. `npm install typescript`
+    4. Créer `tsconfig.json`
+    5. Créer `.gitignore`
+    6. Copier `data.ts` dans `backend/src`
+    7. `npm install express cors`
+    8. Créer `server.ts`
+       1. Installer `@types`
+       2. Ajouter les APIs
+    9. `npm install nodemon ts-node --save-dev`
+    10. Ajouter `urls.ts` dans le frontend
+    11. Ajouter le module `HttpClient`
+    12. Mettre à jour le service `Food`
 
-17. Checkout Page
-    1.  Create Order Model
-    2.  Create Checkout Page Component
-        1.  Add To Router   
-    3.  Add User to User Service 
-    4.  Add Cart to Cart Service 
-    5.  Create Order Items List Component
-    6.  Adding Map To The Checkout Page
-        1.  Add Leaflet npm package
-            1.  Add @types/leaflet
-            2.  Add Css to angular.json
-        2.  Add AddressLatLng to Order Model
-        3.  Create Map component
-            1.  Add to checkout page
-            2.  Add TS
-                1.  Change app-map selector to map
-            3.  Add Html
-            4.  Add CSS
-        4.  Add Auth Guard
-    7.  Save Order
-        1. Add Order Model
-        2. Add Order Status Enum
-        3. Add Auth Middleware
-        4. Add Order Router
-           1. Add create API
-        5. Add Order Urls to urls.ts
-        7. Add Order Service
-           1. Add create Method
-        8. Add Auth Interceptor
+12. **Page de Connexion (Login Page)**
+    1. Générer un composant
+       1. Ajouter aux routes
+       2. Ajouter le TypeScript
+       3. Ajouter le HTML
+          1. Importer `ReactiveFormsModule`
+       4. Ajouter le CSS
+    2. Ajouter une API de connexion
+       1. Utiliser JSON
+       2. Ajouter `jsonwebtoken`
+       3. Tester avec Postman
+    3. Générer un service `User`
+       1. Créer un modèle `User`
+       2. Ajouter un `Subject` pour l'utilisateur
+       3. Ajouter une méthode de connexion
+          1. Ajouter les URLs utilisateur
+          2. Générer une interface `IUserLogin`
+          3. Ajouter `ngx-toastr`
+             1. Importer le module
+             2. Importer `BrowserAnimationsModule`
+             3. Ajouter les styles dans `angular.json`
+          4. Ajouter au `Header`
+       4. Ajouter des méthodes de `localStorage`
+       5. Ajouter une méthode de déconnexion
+          1. Ajouter au `Header`
 
-18. Payment Page
-    1. Generate Component
-    2. Add 'getOrderForCurrentUser' api 
-    3. Add Order Service method
-    4. Connect Component to Service
-    5. Make the map component readonly
+13. **Créer des Composants pour la Page de Connexion**
+    1. Conteneur de saisie (`Input Container`)
+    2. Validation de saisie (`Input Validation`)
+    3. Champ de texte (`Text Input`)
+    4. Bouton par défaut (`Default Button`)
 
-19. Adding Paypal
-    1. Generate Component
-       1. Add to payment page
-    2. Get Paypal client Id
-    3. Add Paypal JS to index.html
-    4. Set up Paypal button
-    5. Add Pay api to order router   
-    6. Get Paypal sandbox account
+14. **Connecter l'API de Connexion à MongoDB Atlas**
+    1. Déplacer les APIs dans des routeurs
+    2. Créer un cluster MongoDB Atlas
+    3. Créer un fichier `.env`
+    4. Installer :
+       1. `mongoose`
+       2. `dotenv`
+       3. `bcryptjs`
+       4. `express-async-handler`
+    5. Se connecter à MongoDB Atlas
+    6. Utiliser MongoDB au lieu de `data.ts` pour les APIs
 
-20. Order Track Page
-    1.  Generate Component
-        1.  Add to routes
-    2.  Add API
-        1.  Add to urls.ts
-    3.  Add method to order.service
-    4.  Add HTML
-    5.  Add CSS
+15. **Inscription Utilisateur (Register)**
+    1. Ajouter une API d'inscription
+    2. Ajouter une méthode au service utilisateur
+    3. Ajouter un lien d'inscription
+    4. Ajouter un composant `Register`
 
-21. Deploy On Heroku
-    1.  OutputPath in angular.json
-    2.  package.json
-        1.  frontend
-        2.  backend
-        3.  root
-    3.  BASE_URL in urls.ts
-    4.  Public folder config in server.ts
-    5.  Run commands
-    6.  Add built folder to .gitignore
-    7.  Commit and Push
+16. **Chargement (Loading)**
+    1. Ajouter une image
+    2. Ajouter un composant
+    3. Ajouter un service
+    4. Ajouter un intercepteur
 
-22. Updating Packages (Optional)
-    1.  Install npm-check-upates as a global package
-    2.  Run ncu -u in the frontend folder
-    3.  Downgrade typescript to version ~4.8.2
-    4.  Run npm install --force
-    5.  Run npm start
-    6.  Run ncu -u in the backend folder
-    7.  Run npm install
-    8.  Run npm start
+17. **Page de Paiement (Checkout Page)**
+    1. Créer un modèle `Order`
+    2. Créer un composant `CheckoutPage`
+       1. Ajouter aux routes
+    3. Ajouter l'utilisateur au service `User`
+    4. Ajouter le panier au service `Cart`
+    5. Créer un composant `OrderItemsList`
+    6. Ajouter une carte à la page (`Map`)
+       1. Installer `leaflet`
+          1. Ajouter `@types/leaflet`
+          2. Ajouter le CSS dans `angular.json`
+       2. Ajouter `AddressLatLng` au modèle `Order`
+       3. Créer un composant `Map`
+          1. Ajouter à `CheckoutPage`
+          2. Ajouter le TypeScript
+             1. Changer le sélecteur `app-map` en `map`
+          3. Ajouter le HTML
+          4. Ajouter le CSS
+       4. Ajouter un garde d'authentification (`AuthGuard`)
+    7. Sauvegarder la commande (`Order`)
+       1. Ajouter le modèle `Order`
+       2. Ajouter un enum `OrderStatus`
+       3. Ajouter un middleware d'authentification
+       4. Ajouter un routeur `Order`
+          1. Ajouter une API de création
+       5. Ajouter les URLs dans `urls.ts`
+       6. Ajouter un service `Order`
+          1. Ajouter une méthode `create`
+       7. Ajouter un intercepteur d'authentification
+
+18. **Page de Paiement (Payment Page)**
+    1. Générer un composant
+    2. Ajouter une API `getOrderForCurrentUser`
+    3. Ajouter une méthode au service `Order`
+    4. Connecter le composant au service
+    5. Rendre la carte (`Map`) en lecture seule
+
+19. **Intégration de PayPal**
+    1. Générer un composant
+       1. Ajouter à la page de paiement
+    2. Obtenir un `clientId` PayPal
+    3. Ajouter PayPal JS dans `index.html`
+    4. Configurer le bouton PayPal
+    5. Ajouter une API de paiement dans le routeur `Order`
+    6. Créer un compte PayPal Sandbox
+
+20. **Page de Suivi de Commande (Order Track Page)**
+    1. Générer un composant
+       1. Ajouter aux routes
+    2. Ajouter une API
+       1. Ajouter dans `urls.ts`
+    3. Ajouter une méthode dans `order.service`
+    4. Ajouter le HTML
+    5. Ajouter le CSS
+
+21. **Déploiement sur Heroku**
+    1. Configurer `outputPath` dans `angular.json`
+    2. Mettre à jour `package.json`
+       1. Frontend
+       2. Backend
+       3. Racine
+    3. Configurer `BASE_URL` dans `urls.ts`
+    4. Configurer le dossier `public` dans `server.ts`
+    5. Exécuter les commandes
+    6. Ajouter le dossier `build` à `.gitignore`
+    7. Commit et push
+
+22. **Mise à jour des paquets (Optionnel)**
+    1. Installer `npm-check-updates` globalement
+    2. Exécuter `ncu -u` dans le dossier `frontend`
+    3. Revenir à TypeScript version `~4.8.2`
+    4. Exécuter `npm install --force`
+    5. Exécuter `npm start`
+    6. Exécuter `ncu -u` dans le dossier `backend`
+    7. Exécuter `npm install`
+    8. Exécuter `npm start`
+
