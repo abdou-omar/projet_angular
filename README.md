@@ -201,20 +201,8 @@
     3. Ajouter une méthode dans `order.service`
     4. Ajouter le HTML
     5. Ajouter le CSS
-
-21. **Déploiement sur Heroku**
-    1. Configurer `outputPath` dans `angular.json`
-    2. Mettre à jour `package.json`
-       1. Frontend
-       2. Backend
-       3. Racine
-    3. Configurer `BASE_URL` dans `urls.ts`
-    4. Configurer le dossier `public` dans `server.ts`
-    5. Exécuter les commandes
-    6. Ajouter le dossier `build` à `.gitignore`
-    7. Commit et push
-
-22. **Mise à jour des paquets (Optionnel)**
+    6. 
+21. **Mise à jour des paquets (Optionnel)**
     1. Installer `npm-check-updates` globalement
     2. Exécuter `ncu -u` dans le dossier `frontend`
     3. Revenir à TypeScript version `~4.8.2`
